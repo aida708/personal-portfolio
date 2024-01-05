@@ -18,7 +18,8 @@ const NavBar = () => {
     }
   };
   // const [prevScrollPos, setPrevScrollPos] = useState(0);
-  const [visible, setVisible] = useState(true);
+  // const [visible, setVisible] = useState(true);
+  const visible = useState(true);
 
   // useEffect(() => {
   //   window.addEventListener("scroll", handleScroll);
