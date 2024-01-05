@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import logo from "./../assets/logo.jpg";
 import "./NavBar.css";
 import { Link } from "react-scroll";
@@ -17,22 +17,22 @@ const NavBar = () => {
       setToggle(false);
     }
   };
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  // const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [prevScrollPos]);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, [prevScrollPos]);
 
-  const handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
-    setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
-    setPrevScrollPos(currentScrollPos);
-  };
+  // const handleScroll = () => {
+  //   const currentScrollPos = window.pageYOffset;
+  //   setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+  //   setPrevScrollPos(currentScrollPos);
+  // };
 
   // <div className="fixed top-0 z-50 w-full p-4 bg-white shadow">
   // fixed top-0 left-0 right-0 z-50  shadow-md py-4 px-6
@@ -117,20 +117,9 @@ const NavBar = () => {
           {toggle ? (
             <ul className="md:hidden absolute flex mt-8 flex-col bg-gray-200 p-2 rounded-sm">
               <li className="menuItem p-3 hover:scale-110">
-                {/* <Link to="/" smooth={true} duration={300} onClick={closeMenu}>
-                  Home
-                </Link> */}
                 <a href="#home">Home</a>
               </li>
               <li className="menuItem p-3 hover:scale-110">
-                {/* <Link
-                  to="about"
-                  smooth={true}
-                  duration={300}
-                  onClick={closeMenu}
-                >
-                  AboutMe
-                </Link> */}
                 <a href="#about">AboutMe</a>
               </li>
               <li className="menuItem p-3 hover:scale-110">
