@@ -3,7 +3,7 @@ import "./../assets";
 import "./../Components";
 import { wave } from "./../assets";
 import { aboutSection, AppText } from "../Constants";
-// import * as LottiePlayer from "@lottiefiles/lottie-player";
+import * as LottiePlayer from "@lottiefiles/lottie-player";
 
 const AboutMe = () => {
   return (
