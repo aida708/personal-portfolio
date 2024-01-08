@@ -46,7 +46,7 @@ const Home = () => {
           <button>
             {/* className="hover:z-50 transition-all duration-300 ease-in-out  hover:scale-125 bg-purple-600 p-2 rounded-md text-white"> */}
             <a
-              href={require("../assets/Aida_Sufaj_CV.pdf")}
+              href={require("../assets/Aida_Sufaj_cv.pdf")}
               download={"Aida's Resume"}
               target="_blank"
               rel="noreferrer"
