@@ -20,14 +20,14 @@ const AboutMe = () => {
           />
         </div>
 
-        <h1 className="text-white text-[50px] pt-[20px] font-bold text-center ">
+        <h1 className="text-white text-[50px] pt-[15px] font-bold text-center ">
           About <span className="text-black">Me</span>
         </h1>
         <h1 className="w-full text-white text-justify justify-self-center items-center  mt-[-1px] px-10 text-base custom-font-size md:px-60  lg:px-70 mt-[37px] mb-[35px] ">
           {AppText.aboutMeDescripion}
         </h1>
       </div>
-      <div className="flex flex-col md:flex-row mt-[-75px] md:px-32  md:mt-[1px]">
+      <div className="flex flex-col md:flex-row mt-[-75px]  md:px-32  md:mt-[1px]">
         {aboutSection.map((item, index) => (
           <div
             key={index}

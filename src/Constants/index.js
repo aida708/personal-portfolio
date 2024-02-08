@@ -1,5 +1,6 @@
 import {
-  junit,
+  figma,
+  bootstrap,
   mu,
   scrum,
   netlify,
@@ -10,7 +11,6 @@ import {
   mysql,
   react,
   tailwind,
-  springboot,
   Java,
   ecommerce,
   chatify,
@@ -26,7 +26,7 @@ export const AppText = {
   Iam: "I am ",
   aida: "Aida Sufaj",
   aboutMeDescripion:
-    "I love nature, sports and everything tech-related! Specializing in React and proficient in JavaScript, HTML and CSS, I enjoy  building cool stuff online. Even though I have worked with Java, my heart lies in building websites that people love to use. I have been doing full-stack development for over a year now  and I enjoy solving problems. Constantly seeking opportunities to learn and grow, I stay updated with the latest industry trends and strive for continuous improvement.",
+    "Passionate Frontend Developer with a focus on JavaScript and React technologies. I specialize in crafting dynamic and responsive user interfaces that elevate the overall user experience. As a tech enthusiast, I am dedicated to staying updated on the latest industry trends and advancements. I thrive on challenges and firmly believe in the importance of embracing emerging technologies to deliver innovative solutions. Recognized for my commitment and collaborative spirit, I excel in team environments.",
   Skills: "Skills  ",
   Experties: "Experties",
   UIUXDesigner: "UI/UX Designer",
@@ -51,7 +51,7 @@ export const aboutSection = [
     id: 3,
     image:
       "https://img.freepik.com/premium-vector/back-end-developer-working-laptop_701961-1383.jpg?w=2000",
-    title: "Back-end Developer",
+    title: "UI/UX Designer",
     // desc:'Expert in UI/UX designing software '
   },
 ];
@@ -61,6 +61,7 @@ export const skillsList = [
     id: 1,
     icon: react,
   },
+
   {
     id: 2,
     icon: HTML,
@@ -70,13 +71,10 @@ export const skillsList = [
     icon: js,
   },
   {
-    id: 4,
-    icon: Java,
+    id: 111,
+    icon: figma,
   },
-  {
-    id: 16,
-    icon: springboot,
-  },
+
   {
     id: 7,
     icon: api,
@@ -85,6 +83,10 @@ export const skillsList = [
   {
     id: 8,
     icon: mongodb,
+  },
+  {
+    id: 4,
+    icon: Java,
   },
   {
     id: 9,
@@ -100,6 +102,10 @@ export const skillsList = [
     icon: tailwind,
   },
   {
+    id: 100,
+    icon: bootstrap,
+  },
+  {
     id: 12,
     icon: postman,
   },
@@ -111,10 +117,7 @@ export const skillsList = [
     id: 14,
     icon: scrum,
   },
-  {
-    id: 111,
-    icon: junit,
-  },
+
   {
     id: 1111,
     icon: netlify,
